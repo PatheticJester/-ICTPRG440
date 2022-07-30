@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.gameframe {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    width: 700px;
+    height: 400px;
+  }
+
+.output {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 150%);
+}
+
+.button {
+    background-color: blueviolet;
+    border: none;
+    height: 60px;
+    color: aliceblue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: fixed;
+    top: 60%;
+    left: 44%;
+    transform: translate(-50%, -50%);
+}
+
+
+.nobutton{
+    background-color: blueviolet;
+    border: none;
+    height: 60px;
+    color: aliceblue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: fixed;
+    top: 60%;
+    right: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.frametext{
+    text-align:center;
+}
+
+.playcom{
+    text-align: center;
+    color: seagreen;
+}
